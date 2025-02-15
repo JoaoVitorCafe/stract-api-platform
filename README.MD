@@ -13,7 +13,20 @@ Este projeto implementa um servidor Flask que consome dados de uma API de anúnc
 Todos os endpoints de relatório retornam dados no formato CSV.
 O arquivo .csv também pode ser visualizado na pasta `csv`.
 
-## Instalação
+
+## Instalação - Docker
+
+Caso tenha o docker instalado rode os comandos abaixo no terminal
+
+```
+docker build -t stract-api-platform .
+```
+
+```
+docker run -p 5000:5000 stract-api-platform .
+```
+
+## Instalação - Manual (Sem Docker)
 
 1. **Clone o repositório:**
 
