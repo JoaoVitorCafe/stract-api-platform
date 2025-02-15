@@ -14,19 +14,6 @@ Todos os endpoints de relatório retornam dados no formato CSV.
 O arquivo .csv também pode ser visualizado na pasta `csv`.
 
 
-## Instalação - Docker
-
-Caso tenha o docker instalado rode os comandos abaixo no terminal
-
-```
-docker build -t stract-api-platform .
-```
-
-```
-docker run -p 5000:5000 stract-api-platform .
-```
-
-## Instalação - Manual (Sem Docker)
 
 1. **Clone o repositório:**
 
@@ -42,6 +29,20 @@ Crie um arquivo .env na pasta raiz do projeto e coloque o token de autorização
 TOKEN_AUTORIZACAO=****************
 ```
 
+## Instalação - Docker
+
+Caso tenha o docker instalado rode os comandos abaixo no terminal
+
+```
+docker build -t stract-api-platform .
+```
+
+```
+docker run -p 5000:5000 stract-api-platform
+```
+
+## Instalação - Manual (Sem Docker)
+
 3. **Crie um ambiente virtual (recomendado):**
 
     ```bash
@@ -56,9 +57,7 @@ TOKEN_AUTORIZACAO=****************
     pip install -r requirements.txt
     ```
 
-## Execução
-
-1. **Inicie o servidor Flask:**
+5. **Inicie o servidor Flask:**
     ```bash
     python app.py
     ```
