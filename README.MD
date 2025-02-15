@@ -18,8 +18,8 @@ O arquivo .csv também pode ser visualizado na pasta `csv`.
 1. **Clone o repositório:**
 
     ```bash
-    git clone <URL_do_repositorio>
-    cd <nome_da_pasta_do_repositorio>
+    git clone https://github.com/JoaoVitorCafe/stract-api-platform.git
+    cd stract-api-platform
     ```
 2. **Clone o repositório:**
 
